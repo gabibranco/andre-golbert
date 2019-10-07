@@ -1,15 +1,39 @@
 body {
+  background-color: black;
+  color: white;
+}
+
+.banner {
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://res.cloudinary.com/dmopnsyae/image/upload/v1570230014/WhatsApp_Image_2019-10-04_at_16.22.51.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  height: calc(80vh - 60px);
   background-size: cover;
-  background-color: black;
-  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.navbar {
+  height: 60px;
+  align-items: center;
+  display: flex;
+}
+
+.nav-item {
+  padding: 0 50px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: grey;
+  transition: ease 0.2s ease;
 }
 
 p {
@@ -22,10 +46,4 @@ h1 {
   font-family: 'Playfair Display', serif;
   text-transform: uppercase;
   margin-bottom: 0px;
-}
-
-.same-line {
-  display: flex;
-  justify-content: space-between;
-  width: 15vw;
 }
