@@ -71,3 +71,19 @@ h1 {
 .banner-content {
   max-width: 324px;
 }
+
+.footer {
+  background-color: black;
+  color: white;
+}
+
+.footer a {
+  color: white;
+  margin-right: 10px;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: grey;
+  transition: ease 0.2s ease;
+}
