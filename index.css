@@ -1,7 +1,7 @@
 /* background for page */
 
 body {
-  background-color: white;
+  background-color: #fff7f2;
 }
 
 /* slideshow */
@@ -10,6 +10,7 @@ body {
   height: 100vh;
   background-size: cover;
   display: flex;
+  background-color: #3A405A;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -48,7 +49,7 @@ body {
 }
 
 .slideshow li h3 {
-  color: white;
+  color: #fff7f2;
 }
 
 @media only screen and (min-width: 768px) {
@@ -76,14 +77,15 @@ body {
 }
 
 .slideshow li:nth-child(3) span {
-  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://res.cloudinary.com/dmopnsyae/image/upload/v1572020943/DSC04334.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://res.cloudinary.com/dmopnsyae/image/upload/v1572020937/2019-04-27_20.27.13.jpg);
   -webkit-animation-delay: 12s;
   -moz-animation-delay: 12s;
   animation-delay: 12s;
 }
 
+
 .slideshow li:nth-child(4) span {
-  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://res.cloudinary.com/dmopnsyae/image/upload/v1572020937/2019-04-27_20.27.13.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://res.cloudinary.com/dmopnsyae/image/upload/v1572984421/IMG_1471.jpg);
   -webkit-animation-delay: 18s;
   -moz-animation-delay: 18s;
   animation-delay: 18s;
@@ -160,7 +162,7 @@ body {
 /* fonts and links */
 
 h1 {
-  color: white;
+  color: #fff7f2;
 }
 
 h1, h3 {
@@ -173,52 +175,68 @@ h1, h3 {
 a {
   font-family: 'Raleway', sans-serif;
   text-decoration: none;
-  color: black;
+  color: #3A405A;
+}
+
+.credits p {
+  color: #fff7f2;
 }
 
 a:hover {
   text-decoration: none;
-  color: grey;
-  transition: ease 0.2s ease;
+  color: #AEC5EB;
+  transition: 0.3s ease;
 }
 
 p {
   font-family: 'Raleway', sans-serif;
+  color: #3A405A;
 }
 
 .banner-h3 {
-  color: white;
+  color: #fff7f2;
   font-family: 'Raleway', sans-serif;
 }
 
 .banner-content a {
   text-transform: uppercase;
   text-decoration: none;
-  color: white;
+  color: #fff7f2;
   letter-spacing: 2px;
+}
+
+.banner-content a:hover {
+  color: #AEC5EB;
 }
 
 .quotes h3 {
   margin-bottom: -20px;
   font-size: 70px;
+  color: #3A405A;
 }
 
 .footer a {
-  color: white;
+  color: #fff7f2;
   margin-right: 10px;
 }
 
 .footer a:hover {
   text-decoration: none;
-  color: grey;
-  transition: ease 0.2s ease;
+  color: #AEC5EB;
+  transition: 0.3s ease;
+}
+
+/* quotes */
+
+.picture img {
+  width: 100%;
 }
 
 /* footer */
 
 .footer {
-  background-color: black;
-  color: white;
+  background-color: #3A405A;
+  color: #fff7f2;
 }
 
 /* navbar (not implemented for now) */
@@ -232,3 +250,5 @@ p {
 .nav-item {
   padding: 0 50px;
 }
+
+
