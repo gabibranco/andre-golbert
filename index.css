@@ -7,9 +7,6 @@ body {
 /* slideshow */
 
 .banner {
-  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://res.cloudinary.com/dmopnsyae/image/upload/v1570230014/WhatsApp_Image_2019-10-04_at_16.22.51.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
   height: 100vh;
   background-size: cover;
   display: flex;
