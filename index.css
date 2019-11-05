@@ -1,6 +1,10 @@
+/* background for page */
+
 body {
   background-color: white;
 }
+
+/* slideshow */
 
 .banner {
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://res.cloudinary.com/dmopnsyae/image/upload/v1570230014/WhatsApp_Image_2019-10-04_at_16.22.51.jpg);
@@ -14,20 +18,42 @@ body {
   flex-direction: column;
 }
 
-.navbar {
-  height: 60px;
-  align-items: center;
-  display: flex;
+.banner-content {
+  max-width: 324px;
 }
 
-.nav-item {
-  padding: 0 50px;
+/* fonts and links */
+
+h1 {
+  color: white;
+}
+
+h1, h3 {
+  align-items: flex-start;
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  margin-bottom: 0px;
 }
 
 a {
   font-family: 'Raleway', sans-serif;
   text-decoration: none;
   color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: grey;
+  transition: ease 0.2s ease;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+.banner-h3 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
 }
 
 .banner-content a {
@@ -42,41 +68,6 @@ a {
   font-size: 70px;
 }
 
-a:hover {
-  text-decoration: none;
-  color: grey;
-  transition: ease 0.2s ease;
-}
-
-p {
-  font-family: 'Raleway', sans-serif;
-}
-
-h1, h3 {
-  align-items: flex-start;
-  font-family: 'Playfair Display', serif;
-  text-transform: uppercase;
-  margin-bottom: 0px;
-}
-
-.banner-h3 {
-  color: white;
-  font-family: 'Raleway', sans-serif;
-}
-
-h1 {
-  color: white;
-}
-
-.banner-content {
-  max-width: 324px;
-}
-
-.footer {
-  background-color: black;
-  color: white;
-}
-
 .footer a {
   color: white;
   margin-right: 10px;
@@ -86,4 +77,23 @@ h1 {
   text-decoration: none;
   color: grey;
   transition: ease 0.2s ease;
+}
+
+/* footer */
+
+.footer {
+  background-color: black;
+  color: white;
+}
+
+/* navbar (not implemented for now) */
+
+.navbar {
+  height: 60px;
+  align-items: center;
+  display: flex;
+}
+
+.nav-item {
+  padding: 0 50px;
 }
