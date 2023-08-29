@@ -273,6 +273,10 @@ p {
   font-size: 16px;
 }
 
+.degree {
+  margin-bottom: 16px;
+}
+
 .degree p {
   margin-bottom: 2px;
   font-size: 16px;
